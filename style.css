@@ -39,3 +39,10 @@ css[endText]{
 color: white;
 text-align: center;
 }
+
+css[play]{
+background-color: green;
+font-size: 16px;
+text-align: justify;
+box-shadow: 2px 2px 0px black;
+}
