@@ -1,10 +1,19 @@
 body{
-background-color: #1111ff;
+background-color: #111111;
+}
+
+a:link, a:visited{
+color: #aaaaaa;
+text-decoration: none;
+}
+
+a:hover, a:active{
+color: white;
+text-decoration: none;
 }
 
 p{
-width: 10%;
-box-shadow: 0px 0px 5px black;
+width: 50%;
 }
 
 .title1{
@@ -15,7 +24,7 @@ color: white
 }
 
 .body{
-background-color: black;
+background-color: white;
 font-size: 20px;
 text-align: justify;
 box-shadow: 2px 2px 0px black;
@@ -23,7 +32,8 @@ box-shadow: 2px 2px 0px black;
 
 .side{
 color: white;
-background-color: #eeeeee;
+background-image: url("b.jpg");
+background-repeat: repeat;
 font-size: 15px;
 }
 
@@ -41,8 +51,19 @@ text-align: center;
 }
 
 .play{
-background-color: green;
+color: #eeeeee;
+text-align: center;
+background-color: #30cc80;
 font-size: 16px;
-text-align: justify;
-box-shadow: 2px 2px 0px black;
+width: 20%;
+box-shadow: 2px 2px 5px black;
+}
+
+.play:hover{
+color: white;
+text-align: center;
+background-color: #30dd80;
+font-size: 16px;
+width: 22%;
+box-shadow: 2px 2px 5px black;
 }
